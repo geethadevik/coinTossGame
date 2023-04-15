@@ -1,0 +1,124 @@
+.app-container {
+  display: flex;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 60%;
+    margin-left: 250px;
+  }
+}
+.coin-toss-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid white;
+  width: 80%;
+  height: 80vh;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .coin-toss-container {
+    width: 50%;
+    margin-top: 80px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+  color: #a35200;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    padding-top: 120px;
+    font-size: 30px;
+  }
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #334155;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+}
+.toss-image {
+  width: 120px;
+  height: 140px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .toss-image {
+    width: 180px;
+    height: 200px;
+  }
+}
+.toss-button {
+  background-color: #e2a139;
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: #a35200;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .toss-button {
+    font-size: 10px;
+    background-color: #f9d423;
+  }
+}
+.result {
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 20px;
+  color: #475569;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .total {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heads {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tails {
+    padding-right: 20px;
+  }
+}
